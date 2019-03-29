@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/mm-wang/WebApplicationWorkshop#readme",
   "dependencies": {
+    "apm": "^1.0.2",
     "bluebird": "^3.5.3",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.2.1",
