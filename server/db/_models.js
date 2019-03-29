@@ -3,3 +3,4 @@
  * the rest of the application
  */
 require("./Sphere");
+require("./Cube")
