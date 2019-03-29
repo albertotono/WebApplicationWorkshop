@@ -7,7 +7,8 @@ export default [{
     component: geometry,
     meta: { title: route => "Geometry View" },
     props: true
-},{
+},
+{
     path: '/test',
     name: 'test',
     component: test,

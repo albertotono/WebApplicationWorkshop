@@ -84,6 +84,9 @@ export default {
     $.get("/api/retrieve-something").then((data) => {
       console.log(data);
     });
+    $.get("/api/adding-things").then((data) => {
+      console.log(data);
+    });
   }
 }
 </script>

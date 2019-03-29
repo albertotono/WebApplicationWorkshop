@@ -14,6 +14,12 @@ router.get("/retrieve-something", (req, res) => {
 	});
 });
 
+router.get("/adding-things", (req, res) => {
+	return res.json ({
+		ciao: 3+10
+	});
+});
+
 router.post("/save-sphere", (req, res) => {
 	let sphere = new rhino3dm.Sphere(req.body.origin, req.body.radius);
 	let sphereModel = new Sphere();
